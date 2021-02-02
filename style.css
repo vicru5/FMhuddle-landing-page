@@ -1,0 +1,31 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'Poppins regular';
+	src:url(fonts/Poppins-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: 'Poppins semiBold';
+	src:url(fonts/Poppins-SemiBold.ttf);
+	font-weight: 600;
+}
+
+@font-face{
+	font-family: 'Opem sans';
+	src:url(fonts/OpenSans-Regular.ttf);
+	font-weight: 400;
+}
+
+
+:root{
+	/*Colors*/
+	--Violet: hsl(257, 40%, 49%);
+	--Soft-Magenta: hsl(300, 69%, 71%);
+}
+

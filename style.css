@@ -96,7 +96,14 @@ header img{
 	font-family: 'Poppins regular';
 	font-size: 16px;
 	color: var(--Violet);
+	border: none;
 	box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+}
+
+.text button:hover{
+	background-color: var(--Soft-Magenta);
+	color: white;
+	cursor: pointer;
 }
 
 footer{
@@ -122,4 +129,15 @@ footer div.social .icon{
 	color: white;
 	text-align: center;
 	margin: 10px auto;
+}
+
+footer div.social:hover{
+	border-color: var(--Soft-Magenta);
+	cursor: pointer;
+	color: var(--Soft-Magenta);
+}
+
+footer div.social:hover .icon{
+	cursor: pointer;
+	color: var(--Soft-Magenta);
 }
